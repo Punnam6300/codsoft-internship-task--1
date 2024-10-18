@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiva's Calculator</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external stylesheet -->
+</head>
+<body>
+    <div class="calculator"> <!-- Container for the calculator -->
+        <h1>Shiva's Calculator</h1> <!-- Calculator title -->
+        <div class="display"> <!-- Display area for the calculator -->
+            <input type="text" readonly> <!-- Read-only input for showing calculations -->
+        </div>
+        <div class="buttons"> <!-- Container for calculator buttons -->
+            <!-- First Row -->
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">+</button>
+
+            <!-- Second Row -->
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">-</button>
+
+            <!-- Third Row -->
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">*</button>
+
+            <!-- Fourth Row -->
+            <button>0</button>
+            <button>00</button>
+            <button class="decimal">.</button>
+            <button class="operator">/</button>
+
+            <!-- Fifth Row -->
+            <button class="cut">C</button>
+            <button class="clear">AC</button>
+            <button class="equal">=</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+</html>
